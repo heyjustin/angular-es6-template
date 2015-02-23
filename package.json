@@ -1,0 +1,23 @@
+{
+  "name": "es6-angular-take-2",
+  "version": "0.0.0",
+  "description": "A test application for angular on es6",
+  "private": true,
+  "author": {
+    "name": "Justin Walsh",
+    "url": "https://github.com/heyjustin"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.2.1",
+    "connect-modrewrite": "^0.7.11",
+    "gulp": "^3.8.11",
+    "gulp-htmlhint": "0.0.9",
+    "gulp-jshint": "^1.9.2",
+    "http-proxy": "^1.8.1",
+    "jshint-stylish": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=0.12",
+    "npm": ">=2.0.0"
+  }
+}

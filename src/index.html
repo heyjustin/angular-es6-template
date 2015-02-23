@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 Angular app</title>
+</head>
+<body ng-app="app" ng-cloak>
+
+<header id="header" ng-include src="'header'"></header>
+<hr>
+
+<div><ng-view>
+
+</ng-view></div>
+
+<hr>
+<header id="footer" ng-include src="'footer'"></header>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular-route.min.js"></script>
+<script src="app/main.js"></script>
+</body>
+</html>
