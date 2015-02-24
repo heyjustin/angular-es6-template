@@ -21,8 +21,15 @@
     "node": ">=0.12",
     "npm": ">=2.0.0"
   },
-  "dependencies": {
-    "angular": "^1.3.13",
-    "angular-route": "^1.3.13"
+  "jspm": {
+    "directories": {
+      "lib": "src",
+      "packages": "jspm_packages"
+    },
+    "configFile": "jspm.conf.js",
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.3.13",
+      "angular-route": "github:angular/bower-angular-route@^1.3.13"
+    }
   }
 }
