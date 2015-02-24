@@ -10,10 +10,10 @@
  */
 var gulp            = require('gulp');
 var jshint          = require('gulp-jshint');
-var htmlhint          = require('gulp-htmlhint');
-var browserSync    = require('browser-sync');
-var httpProxy      = require('http-proxy');
-var modRewrite     = require('connect-modrewrite');
+var htmlhint        = require('gulp-htmlhint');
+var browserSync     = require('browser-sync');
+var httpProxy       = require('http-proxy');
+var modRewrite      = require('connect-modrewrite');
 
 //=============================================
 //            UTILS FUNCTIONS
@@ -180,10 +180,6 @@ gulp.task('watch', function () {
 
     // Watch html files
     gulp.watch([paths.app.html, paths.app.templates], ['htmlhint', browserSync.reload]);
-});
-
-gulp.task('foo', function(a) {
-    console.log('Detected watch: ' + a)
 });
 
 //=============================================
